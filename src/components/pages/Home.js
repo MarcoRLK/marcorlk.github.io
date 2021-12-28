@@ -1,14 +1,20 @@
 import React from 'react';
-import HeroSection from '../HeroSection';
-import Cards from '../Cards';
+import Card from '../Card';
 import Footer from '../Footer';
+import Panels from '../Panels';
+import Hero from '../Hero';
+import "./Home.css"
+
 
 function Home() {
     return (
         <div>
-            <HeroSection/>
-            <Cards/>
-            <Footer/>
+            <div>
+                <Hero/>
+                <Card />
+                <Panels />
+                <Footer />
+            </div>
         </div>
     )
 }

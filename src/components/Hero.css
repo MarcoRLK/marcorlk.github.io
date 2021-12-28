@@ -1,0 +1,26 @@
+/*resetar o documento*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    padding: 40px 0;
+    width: 100%;
+    background-color: cadetblue;
+    background-image: url('/public/images/img-home.jpg');
+    background-position: center;
+    min-height: 400px;
+
+}
+
+.center{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+}
