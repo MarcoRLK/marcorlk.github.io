@@ -8,11 +8,14 @@
 .main{
     padding: 40px 0;
     width: 100%;
-    background-color: cadetblue;
-    background-image: url('/public/images/img-home.jpg');
-    background-position: center;
     min-height: 400px;
-
+    background-color: cadetblue;
+    background-image: url('https://i.gadgets360cdn.com/large/coding_stock_unsplash_1628754608523.jpg');
+    background-position: center;
+    background-size: cover; /*faz com que a imagem cubra o espaço sem repetir*/
+    box-shadow: inset 0 0 100px black; /*efeito vinheta*/
+    text-shadow: 1px 1px 2px black;
+    filter: sepia(40%) hue-rotate(40deg) saturate(400%);
 }
 
 .center{
@@ -22,5 +25,5 @@
     color: white;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 300;
+    font-size: 25px;
 }

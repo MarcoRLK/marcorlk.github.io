@@ -5,7 +5,6 @@ import Panels from '../Panels';
 import Hero from '../Hero';
 import "./Home.css"
 
-
 function Home() {
     return (
         <div>

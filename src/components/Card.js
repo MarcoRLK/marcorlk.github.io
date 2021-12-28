@@ -4,13 +4,16 @@ import './Card.scss';
 
 function Card() {
     return (
-        <Tilt className="parallax-effect" perspective={800} style={{ backgroundImage: "url(/images/img-home.jpg)" }}>
-            <div className="inner-element" >
-                <div>Conheça o Marco</div>
-                <div>e contrate-o</div>
-                <div>👀</div>
-            </div>
-        </Tilt>
+        <div className='card-box'>
+            <Tilt className="parallax-effect" perspective={800} style={{ backgroundImage: "url(/images/img-home.jpg)" }}>
+                <div className="inner-element" >
+                    <div>Conheça o Marco</div>
+                    <div>e contrate-o</div>
+                    <div>👀</div>
+                </div>
+            </Tilt>
+        </div>
+        
     )
 }
 

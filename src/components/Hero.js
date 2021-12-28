@@ -6,7 +6,8 @@ function Hero() {
         <div>
             <div className='main'>
                 <div className='center'>
-                    <h2>Olá, meu nome e Marco</h2>
+                    <h2>Marco Kuroiva</h2>
+                    <p>Bacharel em Engenharia de Software pela UnB</p>
                 </div>
             </div>
         </div>

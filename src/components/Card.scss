@@ -4,13 +4,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: teal;
   color: white;
-  border: 5px solid black;
-  border-radius: 20px;
-
+  border: 2px solid black;
+  border-radius: 10px;
   transform-style: preserve-3d;
 
   .inner-element {
@@ -18,8 +17,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
-    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: black;
     transform: translateZ(60px);
   }
+}
+
+.card-box{
+  background-color: rgb(20, 20, 20);
+  justify-content: center;
+  display: flex;
+  padding: 50px;
 }
