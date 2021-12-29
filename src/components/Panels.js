@@ -34,7 +34,7 @@ function Panels() {
                 <div className='single-reason'>
                     <SkillCard title="🧮 Boa base de Probabilidade e Estatística"
                                 image="https://cdn.analyticsvidhya.com/wp-content/uploads/2019/09/introduction-to-probability-and-statistics-for-epidemiology_HRP259.jpg"
-                                item1="Matérias regulares da Engenharia como: Cálculo 1 e 2, Métodos Numéricos, Estruturas Matemáticas para computação, Álgebra Linear, entre outras"
+                                item1="Cursos regulares da Engenharia como: Cálculo 1 e 2, Métodos Numéricos, Probabilidade e Estatística, Álgebra Linear, entre outras"
                                 item2="Conhecimento sobre os algoritmos comumente usados em ML: Naive Bayes, Árvore Binária, Regressão Linear, entre outros"
                                 link1="Meu artigo 1"
                                 link2="Meu artigo 2"
