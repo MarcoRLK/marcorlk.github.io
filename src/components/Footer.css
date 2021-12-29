@@ -1,0 +1,23 @@
+.whole-footer{
+
+    background-color: darkblue;
+    color: white;
+    font-family: "Roboto";
+    min-height: 400px;
+    text-align: center;
+    box-shadow: inset 0 0 100px black; /*efeito vinheta*/
+}
+
+.text-block{
+
+}
+
+.contacts{
+
+
+}
+
+.credits{
+
+
+}

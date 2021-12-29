@@ -4,15 +4,17 @@
 
 .title-reasons{
     color: black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .reasons{
-    flex-direction: row;
     width: 100%;
+    margin: 20px;
 }
 
 .single-reason{
-    flex-direction: row;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;

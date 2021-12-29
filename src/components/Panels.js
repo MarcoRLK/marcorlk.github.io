@@ -6,7 +6,7 @@ function Panels() {
     return (
         <div className='card-box'>
             <div className='title-reasons'>
-                <h2>Motivos para me contratar como cientista de dados</h2>
+                <h2>Conheça um pouco sobre mim e meus projetos</h2>
             </div>
 
             <div className='reasons'>
@@ -22,20 +22,20 @@ function Panels() {
                     />
                 </div>
                 <div className='single-reason'>
-                    <SkillCard title="🎲 Experiência com manipulação de dados e Machine Learning"
-                                image="https://s27389.pcdn.co/wp-content/uploads/2021/08/hottest-jobs-data-science-right-now-955x440.jpeg.optimal.jpeg"
-                                item1="Estágio no Tribunal de Contas da União (TCU). Trabalhos com Oracle, SQL Server e R."
-                                item2="TCC sobre técnicas de Machine Learning e Processamento de linguagem Natural na identificação de comentários impróprios na web."
+                    <SkillCard title="🎲 Experiência com Banco de Dados, manipulação de dados e Machine Learning"
+                                image="https://cdn.corporatefinanceinstitute.com/assets/database-1024x703.jpeg"
+                                item1="Estágio no Tribunal de Contas da União (TCU). Trabalhos com Oracle, SQL Server e R"
+                                item2="TCC sobre técnicas de ML e PLN na identificação de comentários impróprios na web"
                                 item3="Familiaridade com: scikit learn, pandas, numpy"
-                                link1="certificado 1: aprendizagem supervisionada"
-                                link2="certificado 2: aprendizagem não-supervisionada"
+                                link1="Certificado: aprendizagem supervisionada"
+                                link2="Certificado: aprendizagem não-supervisionada"
                     />
                 </div>
                 <div className='single-reason'>
                     <SkillCard title="🧮 Boa base de Probabilidade e Estatística"
                                 image="https://cdn.analyticsvidhya.com/wp-content/uploads/2019/09/introduction-to-probability-and-statistics-for-epidemiology_HRP259.jpg"
-                                item1="Cursos regulares da Engenharia como: Cálculo 1 e 2, Métodos Numéricos, Probabilidade e Estatística, Álgebra Linear, entre outras"
-                                item2="Conhecimento sobre os algoritmos comumente usados em ML: Naive Bayes, Árvore Binária, Regressão Linear, entre outros"
+                                item1="Cursos regulares da Engenharia como: Cálculo 1 e 2, Métodos Numéricos, Probabilidade e Estatística, Álgebra Linear, etc"
+                                item2="Conhecimento sobre algoritmos comumente usados em ML como: Naive Bayes, Árvore de Decisão, Regressão Linear, entre outros"
                                 link1="Meu artigo 1"
                                 link2="Meu artigo 2"
                     />
@@ -47,7 +47,8 @@ function Panels() {
                                 item2="Familiaridade com diversas metodologias de desenvolvimento (ágeis, RUP, etc)"
                                 item3="Testes (Pytest)"
                                 item4="DevOps (Docker)"
-                                link1="Meu artigo 2"
+                                link1="Documentação CRP"
+                                link2="Documentação Drogaria Ideal"
                     />
                 </div>
             </div>
