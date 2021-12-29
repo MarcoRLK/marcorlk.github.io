@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from '../Card';
 import Footer from '../Footer';
 import Panels from '../Panels';
 import Hero from '../Hero';
@@ -10,7 +9,6 @@ function Home() {
         <div>
             <div>
                 <Hero/>
-                <Card />
                 <Panels />
                 <Footer />
             </div>

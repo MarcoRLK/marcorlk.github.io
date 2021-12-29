@@ -7,7 +7,7 @@ function SkillCard(props) {
         <div>
             <Container>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://www.oficinadanet.com.br/imagens/post/24973/pc-gamer.jpg" />
+            <Card.Img variant="top" src={ props.image } height={150} />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>

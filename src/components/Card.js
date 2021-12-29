@@ -5,7 +5,7 @@ import './Card.scss';
 function Card() {
     return (
         <div className='card-box'>
-            <Tilt className="parallax-effect" perspective={800} style={{ backgroundImage: "url(/images/img-home.jpg)" }}>
+            <Tilt className="parallax-effect" perspective={800} trackOnWindow={true} style={{ backgroundImage: "url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg/2560px-Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg.png)" }}>
                 <div className="inner-element" >
                     <div>Site em manutenção</div>
                     <div>Logo fica pronto</div>
