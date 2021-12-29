@@ -1,19 +1,18 @@
 .card-box{
     flex-direction: column;
+    font-family: 'Roboto';
 }
 
 .title-reasons{
-    background-color: black;
     color: white;
 }
 
 .reasons{
     flex-direction: row;
     width: 100%;
-    background-color: teal;
-    align-content:space-between;
 }
 
 .single-reason{
-    width: 30%;
+    flex-direction: row;
+    float: left;
 }
