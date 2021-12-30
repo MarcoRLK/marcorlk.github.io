@@ -11,11 +11,10 @@
 
 .reasons{
     width: 100%;
-    margin: 20px;
+    text-align: center;
 }
 
-.single-reason{
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.icon{
+    justify-content: center;
+    display: flex; /*isso é importante pra centralizar */
 }
