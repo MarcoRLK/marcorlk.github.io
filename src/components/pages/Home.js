@@ -3,6 +3,7 @@ import Footer from '../Footer';
 import Panels from '../Panels';
 import Hero from '../Hero';
 import "./Home.css"
+import Portfolio from '../Portfolio';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <div>
                 <Hero />
                 <Panels />
+                <Portfolio />
                 <Footer />
             </div>
         </div>
