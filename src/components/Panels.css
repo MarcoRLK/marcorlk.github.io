@@ -2,7 +2,7 @@
     flex-direction: column;
 }
 
-.title-reasons{
+.title-panels{
     color: black;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -12,9 +12,25 @@
 .reasons{
     width: 100%;
     text-align: center;
+    font-family: "Roboto";
+}
+
+.indiv-card{
+    min-width: 250px;
 }
 
 .icon{
     justify-content: center;
     display: flex; /*isso é importante pra centralizar */
+}
+
+.card-title{
+    color: #16a9c7;
+    font-weight: bold;
+}
+
+.card-subtitle{
+    color: #16a9c7;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }

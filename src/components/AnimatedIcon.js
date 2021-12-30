@@ -16,12 +16,7 @@ const Icon = (props) => {
         <Lottie options = {animationOptions} height={100} width={100} isStopped={isStopped}>
         </Lottie>
     </div>
-
-
-
     )
-
-
 
 } 
 

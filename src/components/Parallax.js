@@ -1,8 +1,8 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
-import './Card.scss';
+import './Parallax.scss';
 
-function Card() {
+function Parallax() {
     return (
         <div className='card-box'>
             <Tilt className="parallax-effect" perspective={800} trackOnWindow={true} style={{ backgroundImage: "url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg/2560px-Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg.png)" }}>
@@ -17,4 +17,4 @@ function Card() {
     )
 }
 
-export default Card
+export default Parallax

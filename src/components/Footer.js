@@ -12,8 +12,8 @@ function Footer() {
             </div>
             <div className='credits'>
                 <p>Site desenvolvido por mim com React</p>
+                <p>Ícones animados: lordicon</p>
             </div>
-            
         </div>
     )
 }
