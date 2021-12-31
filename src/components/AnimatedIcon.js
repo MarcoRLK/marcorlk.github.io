@@ -14,7 +14,7 @@ const Icon = (props) => {
     <div 
          onMouseEnter={() => setIsStopped(true)}
          onMouseMove={() => setIsStopped(false)}>
-        <Lottie options = {animationOptions} height={100} width={100} isStopped={isStopped}>
+        <Lottie options = {animationOptions} height={props.height} width={props.width} isStopped={isStopped}>
         </Lottie>
     </div>
     )

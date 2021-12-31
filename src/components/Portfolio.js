@@ -9,7 +9,7 @@ function Portfolio() {
     return (
         <div className='portfolio-all'>
             <div className='portf-title'>
-                <h1>Alguns dos meus projetos</h1>
+                Alguns dos meus projetos
             </div>
 
             <div className='portf-cards-container'>

@@ -11,7 +11,7 @@ function Panels() {
     return (
         <div className='card-box'>
             <div className='title-panels'>
-                <h2>Conheça um pouco sobre mim e meus projetos</h2>
+                Conheça um pouco sobre mim e meus projetos
             </div>
 
             <div className='reasons'>
@@ -20,7 +20,7 @@ function Panels() {
                         <Card className='indiv-card'>
                             <Card.Body>
                                 <div className='icon' >
-                                    <AnimatedIcon icon={Icon1}/>
+                                    <AnimatedIcon icon={Icon1} height={100} width={100}/>
                                 </div>                                
                                 <Card.Title className='card-title'>Engenheiro de Software</Card.Title>
                                 <Card.Text className='card-text'>
@@ -40,7 +40,7 @@ function Panels() {
                         <Card className='indiv-card'>
                             <Card.Body>
                                 <div className='icon' >
-                                    <AnimatedIcon icon={Icon2}/>
+                                    <AnimatedIcon icon={Icon2} height={100} width={100}/>
                                 </div>   
                                 <Card.Title>Interessado em Dados</Card.Title>
                                 <Card.Text>
@@ -58,7 +58,7 @@ function Panels() {
                         <Card className='indiv-card'>
                             <Card.Body>
                                 <div className='icon' >
-                                    <AnimatedIcon icon={Icon3}/>
+                                    <AnimatedIcon icon={Icon3} height={100} width={100}/>
                                 </div> 
                                 <Card.Title>Estudante</Card.Title>
                                 <Card.Text>

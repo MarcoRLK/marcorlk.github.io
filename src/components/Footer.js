@@ -12,7 +12,7 @@ function Footer() {
                 <h4>Entre em contato e vamos conversar!</h4>
             </div>
             <div className='contacts'>
-                <AnimatedIcon icon={mailIcon}/>
+                <AnimatedIcon icon={mailIcon} height={100} width={100}/>
             </div>
             <div className='credits'>
                 <p> © Site desenvolvido por mim com React  <FaReact/></p>

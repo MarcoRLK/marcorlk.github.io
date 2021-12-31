@@ -1,15 +1,19 @@
 import React from 'react'
 import './Hero.css'
-import Parallax from './Parallax'
+import AnimatedIcon from './AnimatedIcon';
+import animHome from './anim-home.json'
 
 function Hero() {
     return (
         <div>
             <div className='main'>
-                <div className='center'>
-                    <h2>Marco Kuroiva</h2>
-                    <p>Bacharel em Engenharia de Software pela UnB</p>
-                    <Parallax/>
+                <div className='home-txt'>
+                    <h5 className='greetings'>Olá! Meu nome é</h5>
+                    <h1 className='name'>Marco Kuroiva</h1>
+                    <p className='description'>Bacharel em Engenharia de Software pela UnB</p>
+                </div>
+                <div className='animation' >
+                    <AnimatedIcon icon={animHome}/>
                 </div>
             </div>
         </div>
