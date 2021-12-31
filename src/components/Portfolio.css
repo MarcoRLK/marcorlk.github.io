@@ -1,6 +1,12 @@
 .portfolio-all{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 30px
+}
+
+.portf-card{
+    min-width: 350px;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
 }
 
 .portf-title{
@@ -8,42 +14,34 @@
 }
 
 
-/*
-.project-slides{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-}
-
-.carousel{
-    max-width: 40%;
-}
-*/
-
 .portf-cards-container{
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
-.portf-card{
-    min-width: 350px;
-    margin: 30px;
+.portf-card-title{
+}
+
+.portif-txt{
+    font-size: 15px;
 }
 
 .inside-card{
     opacity: 0;
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0 0 0 0;
+    color: white;
+}
+
+.portif-card-img{
+    background-position: center;
+    background-size: cover;
 }
 
 .portif-card-img:hover{
     box-shadow: inset 0 0 100px black; /*efeito vinheta*/
+    background-color: rgb(0, 0, 80);
     transition: 0.4s;
   /* depois tentar colocar efeitos no inside-card:hover aqui dentro*/
 }
