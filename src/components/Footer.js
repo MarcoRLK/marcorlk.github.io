@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FaReact } from "react-icons/fa";
 import AnimatedIcon from './AnimatedIcon';
-import mailIcon from './mail.json'
+import mailIcon from './mail.json';
 
 function Footer() {
     return (
@@ -13,10 +14,11 @@ function Footer() {
             </div>
             <div className='contacts'>
                 <AnimatedIcon icon={mailIcon} height={100} width={100}/>
+                marco.antoniorl10@gmail.com
             </div>
             <div className='credits'>
                 <p> © Site desenvolvido por mim com React  <FaReact/></p>
-                <p>Ícones animados: lordicon</p>
+                <p>Ícones animados: <a href="https://lordicon.com/">lordicon</a></p>
             </div>
         </div>
     )

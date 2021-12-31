@@ -3,7 +3,7 @@
     color: rgb(104, 104, 104);
     font-family: "Roboto";
     min-height: 200px;
-    margin-top: 300px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -12,7 +12,8 @@
 }
 
 .contacts{
-
+    font-size: 15px;
+    margin-bottom: 120px;
 
 }
 
