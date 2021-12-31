@@ -5,8 +5,8 @@
 .portf-card{
     min-width: 350px;
     width: 350px;
-    height: 200px;
     margin: 30px;
+    min-height: 200px;
 }
 
 .portf-title{
@@ -35,21 +35,21 @@
 }
 
 .portif-card-img{
-    background-position: center;
-    background-size: cover;
+    min-height: 100%;
 }
 
 .portif-card-img:hover{
     box-shadow: inset 0 0 100px black; /*efeito vinheta*/
     background-color: rgb(0, 0, 80);
     transition: 0.4s;
-  /* depois tentar colocar efeitos no inside-card:hover aqui dentro*/
+    height: 100%;
 }
 
-.inside-card:hover{
+.portif-card-img:hover .inside-card{
     opacity: 100%;
     transition: 0.4s;
 }
+
 
 .portif-btns{
     position: absolute;
