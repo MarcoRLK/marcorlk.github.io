@@ -1,15 +1,14 @@
 .whole-footer{
 
-    background-color: #16a9c7;
-    color: white;
+    color: rgb(104, 104, 104);
     font-family: "Roboto";
-    min-height: 400px;
+    min-height: 200px;
+    margin-top: 300px;
     text-align: center;
-    box-shadow: inset 0 0 100px black; /*efeito vinheta*/
 }
 
 .text-block{
-
+    
 }
 
 .contacts{
@@ -18,6 +17,6 @@
 }
 
 .credits{
-
-
+    position: absoloute;
+    bottom: 10px;
 }

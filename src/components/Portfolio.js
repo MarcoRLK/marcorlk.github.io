@@ -2,8 +2,6 @@ import React from 'react'
 import './Portfolio.css'
 import { Card, Button, CardGroup } from 'react-bootstrap'
 import { FaGithub, FaExternalLinkAlt, FaFileAlt, FaFileCode} from "react-icons/fa";
-import AnimatedIcon from './AnimatedIcon';
-import GitLogo from './github-logo.json'
 
 function Portfolio() {
 
@@ -65,7 +63,14 @@ function Portfolio() {
                 </CardGroup>
             </div>
 
-            <AnimatedIcon icon={GitLogo}/>
+            <div className='see-more'>
+                <Button variant="outline-primary" size="lg">
+                    <div>
+                        <FaGithub/>     Veja mais no meu Github
+                    </div>
+                    
+                </Button>{' '}
+            </div>
             
         </div>
     )

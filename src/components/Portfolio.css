@@ -1,5 +1,5 @@
 .portfolio-all{
-    margin: 30px
+    margin: 30px;
 }
 
 .portf-card{
@@ -54,4 +54,11 @@
 .portif-btns{
     position: absolute;
     bottom: 20px;
+}
+
+.see-more{
+    display: flex;
+    justify-content: center;
+    /*as duas linhas acimas são perfeitas para alinhar itens no horizontalmente centro*/
+    margin: 50px;
 }
