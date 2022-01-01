@@ -17,7 +17,7 @@ function Footer() {
             </div>
             <div className='credits'>
                 <p> © Site desenvolvido por mim com React  <FaReact/></p>
-                <p>Ícones animados: <a href="https://lordicon.com/">lordicon</a></p>
+                <p>Ícones animados: <a href="https://lordicon.com/" target="_blank">lordicon</a></p>
             </div>
         </div>
     )

@@ -2,17 +2,10 @@
     margin: 30px;
 }
 
-.portf-card{
-    min-width: 350px;
-    width: 350px;
-    margin: 30px;
-    min-height: 200px;
-}
-
 .portf-title{
     color:#16a9c7;
     font-family: 'Roboto';
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -22,27 +15,34 @@
 
 
 .portf-cards-container{
-    display: flex;
-    justify-content: center;
+
+}
+
+.portf-card{
+    max-width: 400px;
     margin: auto;
-}
-
-.portf-card-title{
-}
-
-.portif-txt{
-    font-size: 15px;
+    margin-top: 20px;
+ 
 }
 
 .inside-card{
     opacity: 0;
     margin: 0;
     padding: 0 0 0 0;
+    
+}
+
+
+.portf-card-title{
+}
+
+.portif-txt{
+    font-size: 12px;
     color: white;
 }
 
+
 .portif-card-img{
-    min-height: 100%;
 }
 
 .portif-card-img:hover{

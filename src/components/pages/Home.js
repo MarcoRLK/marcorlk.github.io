@@ -10,7 +10,7 @@ function Home() {
     return (
         <div>        
             <div>
-                <MyNavbar/>
+                {/*<MyNavbar/>*/}
                 <Hero />
                 <Panels />
                 <Portfolio />
