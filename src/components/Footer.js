@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FaReact } from "react-icons/fa";
 import AnimatedIcon from './AnimatedIcon';
