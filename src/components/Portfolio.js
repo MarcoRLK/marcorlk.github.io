@@ -36,7 +36,7 @@ function Portfolio() {
                     </Col>
                     <Col sm>
                         <Card className="portf-card">
-                            <Card.Img src="/images/LogoCRP.png" />
+                            <Card.Img src="/images/crp_logo.jpg" />
                                 <Card.ImgOverlay className='portif-card-img'>
                                     <div className='inside-card'>
                                         <Card.Title className='portf-card-title'>Classificação de Risco Pediátrico</Card.Title>
@@ -59,7 +59,7 @@ function Portfolio() {
                     </Col>
                     <Col sm>
                         <Card className="portf-card">
-                            <Card.Img src="/images/logo_iespv.jpg" />
+                            <Card.Img src="/images/iespv_logo.jpg" />
                                 <Card.ImgOverlay className='portif-card-img'>
                                     <div className='inside-card'>
                                         <Card.Title className='portf-card-title'>IESPV Administrativo</Card.Title>
@@ -80,7 +80,7 @@ function Portfolio() {
                     </Col>
                     <Col sm>
                         <Card className="portf-card">
-                            <Card.Img src="/images/react-native.png" />
+                            <Card.Img src="/images/yi_logo.jpg" />
                                 <Card.ImgOverlay className='portif-card-img'>
                                     <div className='inside-card'>
                                         <Card.Title className='portf-card-title'>YiRestaurants</Card.Title>
